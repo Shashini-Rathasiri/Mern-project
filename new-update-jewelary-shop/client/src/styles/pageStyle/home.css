@@ -1,0 +1,252 @@
+/* 
+
+HOME TOP SECTION
+
+*/
+
+.home_top_section {
+  width: 100%;
+  height: 150vh;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+
+.home_top_welcome {
+  margin-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  animation-name: example;
+  animation-duration: 3s;  
+  animation-delay: 2s;
+  animation-fill-mode: both;
+}
+
+.home_top_welcome h3 {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 35px;
+  color: #d8ce98;
+}
+
+.home_top_welcome h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 60px;
+  color: #020202;
+  line-height: 27pt;
+}
+
+.home_top_bottom_section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.home_top_horizontal_line {
+  margin-top: 17px;
+  width: 40%;
+  height: 1px;
+  background-color: #ffd700;
+}
+
+/* 
+
+HOME ABOUT SECTION
+
+*/
+
+.home_about_section {
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-template-rows: 1;
+}
+
+.home_about_section_details {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.dis{
+  color:#d8ce98;
+}
+
+.home_about_section_details h3 {
+  font-size: 20px;
+  margin-left: -10px;
+  font-family: "Dancing Script", cursive;
+}
+
+.home_about_section_details h1 {
+  line-height: 12pt;
+  font-size: 30px;
+}
+
+.home_about_section_details p {
+  font-size: 18px;
+  line-height: 20pt;
+  padding: 0 50px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.home_about_section_image {
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+}
+
+.home_about_section_image img {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* 
+
+HOME NEW ARRIVAL SECTION
+
+*/
+
+.home_new_arrival_section {
+  padding: 100px 60px 0;
+  width: 100%;
+
+  display: grid;
+  grid-template-columns: 40% 1fr;
+  grid-template-rows: 1;
+  gap: 90px;
+}
+
+.home_new_arrivals_images {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 2;
+  gap: 10px;
+}
+
+.home_new_arrivals_image_unit {
+  width: 100%;
+  overflow: hidden;
+}
+
+.home_new_arrivals_image_unit img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.home_new_arrivals_details {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.home_new_arrivals_details h1,
+.home_booking_shop_section_details h1 {
+  font-size: 40px;
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+}
+
+.home_new_arrivals_details p,
+.home_booking_shop_section_details p {
+  font-size: 18px;
+  line-height: 20pt;
+  text-align: center;
+  margin: 12px 0 20px;
+}
+
+/*
+Shop logo section
+*/
+
+.home_booking_shop_section_image_center
+{
+  width:400px;
+  height:100%;
+   
+}
+
+
+
+/* 
+
+BOOKING SHOP SECTION
+
+*/
+
+.home_booking_shop_section {
+  padding: 100px 0 0 20px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.home_booking_shop_section_details {
+  padding-top: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.home_booking_shop_section_images {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1;
+  gap: 12px;
+}
+
+.home_booking_shop_section_image_left {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home_booking_shop_section_image_left_unit {
+  width: 100%;
+}
+
+.home_booking_shop_section_image_left_unit img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.home_booking_shop_section_image_right {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2;
+  gap: 7px;
+}
+
+.home_booking_shop_section_image_right_unit {
+  width: 100%;
+}
+
+.home_booking_shop_section_image_right_unit img {
+  width: 100%;
+  object-fit: contain;
+}

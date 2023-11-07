@@ -1,0 +1,51 @@
+.about_us_container {
+  font-family:'Poltawski Nowy', serif;
+  font-size: large;
+  color:blueviolet;
+  padding: 150px 50px 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.about_us_block {
+  width: 100%;
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: 30% 1fr;
+  grid-template-rows: 1;
+  gap: 30px;
+}
+
+.about_us_block_image,
+.about_us_block_details {
+  width: 100%;
+}
+
+.about_us_block_image img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.about_us_block_details p {
+  width: 100%;
+  color:black;
+  line-height: 13pt;
+  text-align: justify;
+}
+
+.btn{
+   border-radius: 20px;
+   background-color: blueviolet; 
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+}

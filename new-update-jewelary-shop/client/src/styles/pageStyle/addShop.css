@@ -1,0 +1,13 @@
+.addshop_container {
+  padding: 150px 50px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.addshop_container input {
+  width: 50%;
+  padding: 12px 25px;
+  background-color: rgb(227, 227, 227);
+  border-radius: 50px;
+}

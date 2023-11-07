@@ -1,0 +1,75 @@
+.header_container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  padding: -5px;
+
+  background: hsla(285, 46%, 86%, 0.8);
+  backdrop-filter: saturate(180%) blur(5px);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header_menu_desktop {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  color: blueviolet;
+  font-size: small;
+}
+
+.btn1{
+  background-color: blueviolet;
+  border-radius: 40px;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+ 
+  
+}
+
+.header_icon {
+  display: flex;
+  align-items: center;
+  color:  blueviolet;
+  
+}
+
+.header_icon p {
+  margin-left: 5px;
+}
+
+.Acc{
+  display: flex;
+  align-items: Right;
+  color:  blueviolet;
+  
+}
+
+
+.header-logo {
+  background-image: url(../../img/logo.png);
+  border: 0px solid #ddd;
+  border-radius: 2px;
+  padding: 2px;
+  width: 150px;
+}
+
+.user_menu{
+  background-color:  blueviolet;
+  
+}
+
+.pointer{
+  color:white;
+}

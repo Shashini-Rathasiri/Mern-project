@@ -1,0 +1,55 @@
+.homecontainer {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+.logincontainer {
+  width: 55%;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-image: url("https://cdn.pixabay.com/photo/2018/08/16/19/56/wedding-rings-3611277_1280.jpg");
+  box-shadow:black;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.logincontainer h1 {
+  margin-bottom: 40px;
+}
+.logincontainer input {
+  width: 67%;
+  padding: 12px 25px;
+  border-radius: 50px;
+  background-color: rgb(227, 227, 227);
+}
+.logincontainer button {
+  background-color: blueviolet;
+  color: white;
+  padding: 12px 35px;
+  border-radius: 50px;
+  margin-top: 27px;
+  cursor: pointer;
+}
+
+.btn1{
+  background-color: blueviolet;
+  border-radius: 40px;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+ 
+  
+}

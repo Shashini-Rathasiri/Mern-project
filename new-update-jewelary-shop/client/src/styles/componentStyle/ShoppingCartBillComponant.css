@@ -1,0 +1,52 @@
+.main_item_details_shoppingcart {
+  margin-top: 20px;
+  width: 95%;
+  height: auto;
+  border: 1px solid rgb(212, 167, 239);
+}
+
+.checkout_btn {
+  margin-top: 20px;
+  margin-left: 25%;
+}
+
+.final_item_details {
+  margin-top: 20px;
+  margin-left: 40px;
+  width: 90%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 45% 45%;
+  grid-template-rows: 1;
+}
+
+.subtotal {
+  margin-top: 20px;
+  margin-left: 40px;
+  width: 90%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 45% 45%;
+  grid-template-rows: 1;
+}
+
+.SubtotalName {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.Subtotalamount {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #d385d7;
+  margin: 1em 0;
+  padding: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+}
